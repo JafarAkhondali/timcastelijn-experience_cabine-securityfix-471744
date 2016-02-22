@@ -1,0 +1,2 @@
+/* */ 
+var self = self || {};
