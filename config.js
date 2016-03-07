@@ -26,6 +26,8 @@ System.config({
     "react-bootstrap": "npm:react-bootstrap@0.28.3",
     "react-dom": "npm:react-dom@0.14.7",
     "three.js": "github:mrdoob/three.js@master",
+    "three.js/controls/OrbitControls": "github:mrdoob/three.js@master/examples/js/controls/OrbitControls.js",
+    "three.js/libs/stats": "github:mrdoob/three.js@master/examples/js/libs/stats.min.js",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -231,5 +233,19 @@ System.config({
       "loose-envify": "npm:loose-envify@1.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     }
+  },
+  meta: {
+    "three.js/controls/OrbitControls": {
+      "deps": [
+        "three.js"
+      ],
+    },
+    'three.js/libs/stats': {
+      "deps": [
+        "three.js"
+      ],
+    },
+
   }
+
 });
